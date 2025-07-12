@@ -59,7 +59,7 @@ const finishTask = (taskName: string) => {
 
         </ul>
 
-        <div>未完タスク完了</div>
+        <div>未完タスク</div>
 
         <ul>
             <li v-for="task in NotFinishedTasks" :key="task.name">
